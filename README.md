@@ -16,7 +16,7 @@ $("*").each(function(index, item){
 	};
 });
 
-``
+```
 
 This is surrounded by some wrapper / namespacing code which you can see
 in the source file.
