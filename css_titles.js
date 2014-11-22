@@ -2,6 +2,8 @@ App.Helpers.CssTitles = {
 
 	run: function () {
 
+             $(function(){
+
 		var classes = {};
 		$("*").each(function(index, item){
 			classes[item] = $(item).attr("class");
@@ -10,7 +12,7 @@ App.Helpers.CssTitles = {
 			};
 		});
 
-		
+             }		
 	}
 
 }

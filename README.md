@@ -18,6 +18,11 @@ $("*").each(function(index, item){
 
 ``
 
+This is surrounded by some wrapper / namespacing code which you can see
+in the source file.
+
+jQuery is a dependency.
+
 I don't know about the compatability, but it works for me on a current chrome
 running in Ubuntu. The effect (due to HTML standards, I presume) of
 giving elements a title attribute is that a tooltip appears on hover.
@@ -36,3 +41,13 @@ at the modularity of the permissions request system when writing a Chrome
 extension. Although HTML, CSS, and Javascript code appear to be 
 supported from the onset, it isn't actually possible to follow a
 hyperlink without using a specific API. 
+
+
+============
+
+Update 
+
+I wrote a tampermonkey script. Install tampermonkey on chrome, then press
+"make a new userscript" and copy the code from tampermonkey_script.js
+to the form. Press save and you now have a script that will run on all pages.
+it is also easy to disable it on a per-site basis. 
